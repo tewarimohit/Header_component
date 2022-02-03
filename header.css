@@ -41,7 +41,7 @@ justify-content: space-around;
     font-weight: 400;
     font-size: 2rem;
     margin: 0 2rem;
-    
+   
 
 }
 a{
@@ -77,14 +77,22 @@ p{
 
 
 /* Fixed Header */
-.fixed-header{
+/* .fixed-header{
     position: sticky;
     top:0;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .3);
      
-}
+} */
 
 /* Dense-header */
 /* .dense-header{
     padding: .5rem .5rem;
 } */
+
+.short-header{
+ position: sticky;
+top: 0;
+border-bottom-right-radius: 40px;
+box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .3);
+width: 112px;
+}
